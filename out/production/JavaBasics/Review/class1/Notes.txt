@@ -1,0 +1,54 @@
+what does a SDET do:
+Test the software mostly websites like facebook amazon etc.
+you will be checking if all the links on a website work properly.
+all the dropdown text boxes etc.
+Why we don't want to test websites manually?
+because it's very slow.
+How Computers work.
+Task1:
+Bobs manager wants him to do below task.
+Pick 30 boxes from point A
+place those boxes at point b.
+For this scheme to work:
+    1) Bob and his manager both should understand written English.
+    2) Bob should be able to perform this task.
+
+Similarly, if we want a computer to do something for us what do we need?
+If we want a computer to solve a problem for us, we need two main things.
+We need to provide information about that task and instructions on how to
+use that information and perform that task. Because computers are very good
+at processing numbers and text we will be using these two forms to provide the
+information to the computer.
+Because we need to store information with instruction we use variables and as
+the surrounding information exists in different forms we use different type
+of variables to store that information.
+Types of Variables in Java:
+    There are two main data types primitives and non primitives.
+Primitives:
+    primitive data types are basic they are very efficient in storing the data but sometimes
+    requires a lot of work to store and process the information.
+Non-primitives:
+    require more space and are easier to work with.
+Let's discuss Primitives:
+    What are primitives data types:
+    Primitives data types are used to store the information in a computer program.
+    Why I should learn about primitive data types?
+    Because all other data types are built using these primitives. They require minimum memory to store
+    information.
+    How can I use Primitive data types?
+    1) we need to specify the data type(it can be primitive or non-primitive)
+    2) we need to give a name to the box so that we can get back this information if we need it in future.
+    3) we can use = to store the information.
+    int box1=12;
+
+
+
+
+
+
+
+
+
+
+
+

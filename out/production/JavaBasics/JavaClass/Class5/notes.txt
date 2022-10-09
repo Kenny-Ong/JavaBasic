@@ -1,0 +1,26 @@
+Java Class 5
+
+If conditions
+
+
+
+if (boolean){
+
+}
+
+String day="Saturday";
+
+if (day.equals("Saturday")) {
+	System.otu.println("It is Java class");	
+}
+
+
+------
+
+SYNTAX
+
+if (boolean conditions){
+	code A;
+} else {
+	code B;
+}
