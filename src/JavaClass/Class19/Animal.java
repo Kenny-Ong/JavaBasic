@@ -1,4 +1,4 @@
-package JavaClass.Class19.Hw;
+package JavaClass.Class19;
 
     public class Animal {
         String name;
