@@ -70,6 +70,6 @@ class PianoTeacher extends Teacher{
         this.pianoType=pianoType;
     }
     void music () {
-        System.out.println(name+" loves to play classica music");
+        System.out.println(name+" loves to play classical music");
     }
 }

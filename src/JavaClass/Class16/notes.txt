@@ -1,6 +1,6 @@
 Types of variables in java with respect to their scope:
     There are three types of variables in java with respect to their
-    scope. Local instance and static.
+    scope. Local, Instance and static.
 Local variables:
     If a variable is declared inside a block of code like method, loop,
     if-condition they are called local variables.
@@ -47,7 +47,7 @@ When we should use private access modifier.
 default access modifier:
     Default is not a keyword. whenever we don't assign any access modifier keyword like private or
     public Java assigns default access level to those variables or methods.
-    The variables or methods which have default access level can be accessed wihin the same class or in any other
+    The variables or methods which have default access level can be accessed within the same class or in any other
     class that is present inside the same package.
 Public access modifier:
     Public access most unrestricted access modifier. Once used with an variable or method we can access that variable
