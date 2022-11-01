@@ -9,10 +9,10 @@ We use the extends keyword and the name of the class from which we want to inher
 and methods while declaring the class.
 Types of inheritance:
     There can be 4 types of inheritance but java only supports 3 of them with classes.
-    1) Single.
-    2) Multilevel.
-    3) Hierarchical.
-    4) Multiple(it is not supported by classes in java).
+    1) Single. - parent and child
+    2) Multilevel. ex) grandparent, dad, child  or A>B>C>D class or top to bottom
+    3) Hierarchical. one parent and many child class
+    4) Multiple(it is not supported by classes in java). one child class and many parent class
 Single inheritance:
     When we have only one parent and one child classes in inheritance it is called single inheritance.
     not widely used.

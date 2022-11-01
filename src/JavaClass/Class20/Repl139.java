@@ -1,16 +1,28 @@
 package JavaClass.Class20;
 
 public class Repl139 {
-    public static void main(String[] args) {
+    String alphabetical(String str) {
+        char [] a =str.toCharArray();
+        String b=str.substring(1).concat(" ");
+        char [] c =b.toCharArray();
+        String d="";
+        for (int i=0; i<a.length; i++) {
+            if(a[i]>c[i] && a[i]<c[i]) {
+                System.out.print(a[i]);
+                d += a[i];
 
-        char c='B';
-        System.out.println((int)c);
-        for (int i = 65; i <120 ; i++) {
-            System.out.println((char)i);
+            }
         }
+        System.out.println(" ");
+        return d;
+    }
+    public static void main(String[]args) {
 
-        if('A'>'B'){
-            System.out.println("its a false");
-        }
+        Repl139 print = new Repl139();
+        print.alphabetical("hello");
+        print.alphabetical("software");
+        print.alphabetical("language");
+
+
     }
 }

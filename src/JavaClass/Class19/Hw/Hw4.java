@@ -7,7 +7,7 @@ public class Hw4 {
      name, mobile number and address in userDetails method. Test your code.
      */
     public static void main(String[] args) {
-        userInfo user = new userInfo("Kenny", 62658391, "108", " Norwood Place", "San Gabriel", "California", 91776);
+        userInfo user = new userInfo("Kenny", "626-583-9091", "108", " Norwood Place", "San Gabriel", "California", 91776);
         user.userInfo();
     }
 
@@ -15,8 +15,8 @@ public class Hw4 {
 }
 class userClass {
     String name;
-    int mobileNumber;
-    userClass(String name, int mobileNumber) {
+    String mobileNumber;
+    userClass(String name, String mobileNumber) {
         this.name=name;
         this.mobileNumber=mobileNumber;
 
@@ -31,7 +31,7 @@ class userInfo extends userClass{
     String state;
     int zipCode;
 
-    public userInfo(String name, int mobileNumber, String addressNumber, String streetName, String city, String state, int zipCode) {
+    public userInfo(String name, String mobileNumber, String addressNumber, String streetName, String city, String state, int zipCode) {
         super(name, mobileNumber);
         this.addressNumber = addressNumber;
         this.streetName = streetName;

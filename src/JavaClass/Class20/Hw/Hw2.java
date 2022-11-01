@@ -9,3 +9,21 @@ public class Hw2 {
 
 
 }
+class Programming{
+    String message;
+
+    Programming() {
+        System.out.println("I love programming languages");
+    }
+    Programming(String message) {
+        this.message=message;
+        System.out.println("I love "+message);
+
+    }
+}
+class ProgrammingPrint{
+    public static void main(String[] args) {
+        Programming print = new Programming();
+        Programming print1 = new Programming("Java");
+    }
+}
