@@ -2,6 +2,7 @@ package JavaClass.Class25.Hw;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class Hw3 {
     /*values using 3 different ways.
@@ -10,45 +11,50 @@ public class Hw3 {
     Remove any number that is divisible by 5 from that arrayList.
      */
     public static void main(String[] args) {
-        ArrayList <Integer> num = new ArrayList<>();
+        ArrayList <Integer> numEven = new ArrayList<>();
         for(int i=2; i<=500; i+=2) {
-            num.add(i);
+            numEven.add(i);
         }
-        for(int i=0; i<num.size(); i++) {
-            if(num.get(i)%5==0) {
-                num.remove(i);
+        for(int i=0; i<numEven.size(); i++) {
+            if(numEven.get(i)%5==0) {
+                numEven.remove(i);
             }
         }
-        System.out.print(num+", ");
+        System.out.print(numEven+", ");
+
     }
 }
 
 class H3a {
     public static void main(String[] args) {
-        ArrayList<Integer> num = new ArrayList<>();
+        ArrayList<Integer> numEven = new ArrayList<>();
         for (int i = 2; i <= 500; i += 2) {
-            num.add(i);
+            numEven.add(i);
         }
-        Iterator<Integer> iterator = num.iterator();
+/*        Iterator<Integer> iterator = numEven.iterator();
 
         while (iterator.hasNext()) {
-            Integer items = iterator.next();
-            if (items % 5 == 0) {
-            } else {
-                System.out.print(items+", ");
+            Integer nums = iterator.next();
+            if (nums % 5 == 0) {
+                iterator.remove();
             }
         }
+        System.out.println(numEven+", ");*/
+
+        numEven.removeIf(x->x%5==0);
+        System.out.println(numEven);
     }
+
 }
 
 class Hw3b {
     public static void main(String[] args) {
-        ArrayList<Integer> num = new ArrayList<>();
+        ArrayList<Integer> numEven = new ArrayList<>();
         for (int i = 2; i <= 500; i += 2) {
-            num.add(i);
+            numEven.add(i);
         }
 
-        for(Integer x:num) {
+        for(Integer x:numEven) {
             if (x% 5 == 0) {
             } else {
                 System.out.print(x+", ");

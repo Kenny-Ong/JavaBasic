@@ -25,6 +25,7 @@ class Hw1b {
         names.add("Ethan");
         names.add("Malia");
         names.add("Goldie");
+
         Iterator<String> iterators = names.iterator();
         while (iterators.hasNext()) {
             String item = iterators.next();

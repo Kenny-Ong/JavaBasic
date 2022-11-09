@@ -16,14 +16,12 @@ public class Hw2 {
             drinks.add("Old Fashion");
             drinks.add("Coke");
 
-    for (int i = 0; i < drinks.size(); i++) {
-        if (drinks.get(i).contains("a") || drinks.get(i).contains("e") || drinks.get(i).contains("A") || drinks.get(i).contains("E")) {
-            System.out.print("Water, ");
-        } else {
-            System.out.print(drinks.get(i)+" ");
-        }
-    }
-
+             for (int i = 0; i < drinks.size(); i++) {
+                 if (drinks.get(i).contains("a") || drinks.get(i).contains("e") || drinks.get(i).contains("A") || drinks.get(i).contains("E")) {
+                     drinks.set(i, "Water");
+                }
+            }
+        System.out.println(drinks);
     }
 }
 class Hw2b{
