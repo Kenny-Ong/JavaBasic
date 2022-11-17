@@ -1,4 +1,4 @@
-package JavaClass.Class27;
+package JavaClass.class27;
 
 public class Dog {
     private String name;

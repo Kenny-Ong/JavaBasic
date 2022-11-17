@@ -1,4 +1,4 @@
-package JavaClass.Class27;
+package JavaClass.class27;
 
 import java.util.LinkedList;
 

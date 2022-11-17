@@ -63,7 +63,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../Apache POI jar files/poi-bin-5.2.3/auxiliary/batik-anim-1.14.jar!/" />
