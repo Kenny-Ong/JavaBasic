@@ -1,5 +1,7 @@
 package JavaClass.Class9;
 
+import java.util.Arrays;
+
 public class ArrayDemo {
 	
 	public static void main(String[] args) {
@@ -10,11 +12,11 @@ public class ArrayDemo {
 		arr[1]=20;
 		arr[2]=30;
 		arr[3]=40;
-		
+		System.out.println(Arrays.toString(arr));
 		//accessing elements from the array
 		System.out.println(arr[2]); //30
 		System.out.println(arr[1]+arr[2]);
-		
+
 		//Lets create an array and store your classmates
 		String[] names=new String[5];
 		names[0]="Shah";

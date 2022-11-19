@@ -23,6 +23,7 @@ public class MapDemo5 {
         for (var item:entrySet
              ) {
             System.out.println(item);
+
         }
 
 
